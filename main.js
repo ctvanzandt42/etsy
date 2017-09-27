@@ -77,7 +77,7 @@ function question5() {
       itemMaterials.push(data[i].materials);
     }
   }
-  return console.log(complicatedItems[0] + ' has 9 materials: ' + itemMaterials[0] + '. ' + complicatedItems[1] + ' has 13 materials: ' + itemMaterials[1]);
+  return console.log(`${complicatedItems[0]} has 9 materials: ${itemMaterials[0]}. ${complicatedItems[1]} has 13 materials: ${itemMaterials[1]}.`);
 }
 
 
